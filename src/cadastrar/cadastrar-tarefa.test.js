@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import GerenciadorTarefa from './gerenciador-tarefa';
+import CadastrarTarefa from './cadastrar-tarefa';
 
-describe('teste do componente gerenciador tarefas', () =>{
+describe('teste do componente de cadastro de tarefas', () =>{
 
   it('deve rendenrizar sem erros', () =>{
     const div = document.createElement('div');
-    ReactDOM.render(<GerenciadorTarefa />, div);
+    ReactDOM.render(<CadastrarTarefa />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
